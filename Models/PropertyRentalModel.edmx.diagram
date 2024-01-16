@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c55c9d5c262f45ba85bcb9159d18ab4d" Name="Diagram1" ZoomLevel="67">
+        <EntityTypeShape EntityType="PropertyRentalDBModel.Apartment" Width="1.5" PointX="16.625" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PropertyRentalDBModel.Appointment" Width="1.5" PointX="16.875" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="PropertyRentalDBModel.Building" Width="1.5" PointX="14.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PropertyRentalDBModel.Message" Width="1.5" PointX="11.625" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PropertyRentalDBModel.PotentialTenant" Width="1.5" PointX="15.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PropertyRentalDBModel.PropertyManager" Width="1.5" PointX="13.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PropertyRentalDBModel.PropertyOwner" Width="1.5" PointX="8.875" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PropertyRentalDBModel.RoleMaster" Width="1.5" PointX="11.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PropertyRentalDBModel.sysdiagram" Width="1.5" PointX="11.125" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="PropertyRentalDBModel.UserRolesMapping" Width="1.5" PointX="18.375" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="PropertyRentalDBModel.User" Width="1.5" PointX="9.125" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="PropertyRentalDBModel.FK_Apartments_Buildings" ManuallyRouted="false" />
+        <AssociationConnector Association="PropertyRentalDBModel.FK_Appointments_PotentialTenants" ManuallyRouted="false" />
+        <AssociationConnector Association="PropertyRentalDBModel.FK_Appointments_PropertyManagers" ManuallyRouted="false" />
+        <AssociationConnector Association="PropertyRentalDBModel.FK_Messages_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="PropertyRentalDBModel.FK_Messages_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="PropertyRentalDBModel.FK_PotentialTenants_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="PropertyRentalDBModel.FK_PropertyManagers_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="PropertyRentalDBModel.FK_PropertyOwners_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="PropertyRentalDBModel.FK_UserRolesMapping_RoleMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PropertyRentalDBModel.FK_UserRolesMapping_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
